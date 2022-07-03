@@ -260,14 +260,6 @@ h1 {
 
 /* try animated */
 
-
-/* h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    letter-spacing: 2px;
-    font-size: 48px;
-} */
-
 p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
@@ -278,7 +270,6 @@ p {
 .header {
     position: relative;
     text-align: center;
-    /* background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%); */
     background: var(--color-animeted);
     color: white;
 }

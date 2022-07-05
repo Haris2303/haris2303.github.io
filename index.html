@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Company Profile</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <!-- my css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,17 +15,18 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Haris<span>Aja</span></a>
+            <a class="navbar-brand page-scroll" href="#home">Haris<span>Aja</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
-                    <a class="nav-link me-5" href="#">About</a>
-                    <a class="nav-link me-5" href="#">Portfolio</a>
+                    <a class="nav-link active me-5 page-scroll" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link me-5 page-scroll" href="#about">About</a>
+                    <a class="nav-link me-5 page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="nav-link me-5 page-scroll" href="#skills">Skills</a>
                 </div>
-                <a class="btn rounded-pill">Contact Me</a>
+                <a class="btn rounded-pill" href="#contact">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -32,7 +34,7 @@
 
 
     <!-- jumbotron -->
-    <section class="jumbotron" id="jumbotron">
+    <section class="jumbotron" id="home">
         <div class="p-5 mb-4 rounded-3 text-center">
             <div class="container-fluid py-5">
                 <div class="row justify-content-center">
@@ -59,7 +61,7 @@
 
     <!-- about -->
     <section id="about" class="about">
-        <div class="container mb-5 mt-5">
+        <div class="container mt-5 pt-5">
             <div class="row text-center">
                 <div class="col">
                     <h2>About</h2>
@@ -80,7 +82,7 @@
 
     <!-- portfolio -->
     <section id="portfolio" class="portfolio">
-        <div class="container pt-5">
+        <div class="container pt-3">
             <div class="row text-center mt-5">
                 <div class="col">
                     <h2>Portfolio</h2>
@@ -131,7 +133,7 @@
 
     <!-- skills -->
     <section id="skills" class="skills">
-        <div class="container mt-5 mb-5">
+        <div class="container mt-5 mb-5 pt-5">
             <div class="row text-center">
                 <div class="col">
                     <h2>Skills</h2>
@@ -183,11 +185,11 @@
 
         <!--Waves Container-->
         <!-- Contact -->
-        <section id="contact" class="contact">
-            <div class="container shadow pt-5">
+        <section id="contact" class="contact pt-5">
+            <div class="container py-5 shadow">
                 <div class="row">
                     <div class="col">
-                        <h2>Contact Me</h2>
+                        <h2>Contact Us</h2>
                     </div>
                 </div>
                 <div class="row mt-5 justify-content-center">
@@ -229,19 +231,54 @@
     </div>
     <!--Header ends-->
 
-    <!--Content starts-->
-    <div class="content flex">
-        <p>Copyright by.@haris 2022 </p>
+    <!-- footer -->
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 class="footer-h3">Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 class="footer-h3">About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Legacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3 class="footer-h3">Careers</h3>
+                        <ul>
+                            <li><a href="#">Job openings</a></li>
+                            <li><a href="#">Employee success</a></li>
+                            <li><a href="#">Benefits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-messenger"></i></a><a href="#"><i class="bi bi-whatsapp"></i></a>
+                        <p class="copyright">Copyright by.@haris 2022</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <!--Content ends-->
+    <!-- footer end -->
     <!-- end try -->
 
 
-    <script src="../js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

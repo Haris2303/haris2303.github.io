@@ -7,7 +7,7 @@
     --righteous: 'Righteous', sans-serif;
     --black: rgb(68, 56, 56);
     --color-linear: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
-    --color-animeted: rgb(73, 170, 73);
+    --color-animeted: #49aa49;
 }
 
 html,
@@ -71,6 +71,7 @@ a.btn:hover {
     height: 600px;
     padding-bottom: 50px;
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 50px), 0% 100%);
+    background-attachment: fixed;
 }
 
 .box img {
@@ -274,11 +275,11 @@ input::placeholder {
 @media (min-width: 992px) {
     .navbar-brand {
         font-family: 'Paytone One', sans-serif;
-        font-size: 32px;
+        font-size: 26px;
     }
     .nav-link {
         font-family: 'Righteous', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
     }
     .nav-link:hover::after,
     .active::after {

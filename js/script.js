@@ -21,23 +21,15 @@ $('.page-scroll').on('click', function(e) {
 // })
 
 $(window).scroll(function(event) {
-    var scroll = $(window).scrollTop();
+    var scroll = $(window).scrollTop()
     const navbar = $('.navbar')
-    if (scroll < 500) {
-        navbar.removeClass('bg-success')
-    } else if (scroll > 500 && scroll < 1130) {
-        navbar.addClass('bg-success')
-    }
-    // 1113
-    else if (scroll > 1130 && scroll < 2139) {
-        navbar.removeClass('bg-success')
-    }
-    // 2139
-    else if (scroll > 2135 && scroll < 4564) {
-        navbar.addClass('bg-success')
-    }
-    // 4564
-    else {
-        navbar.removeClass('bg-success')
+    if (scroll > 500) {
+        navbar.addClass('bg-light')
+        navbar.removeClass('navbar-dark')
+        navbar.addClass('navbar-light')
+    } else {
+        navbar.removeClass('bg-light')
+        navbar.removeClass('navbar-light')
+        navbar.addClass('navbar-dark')
     }
 })

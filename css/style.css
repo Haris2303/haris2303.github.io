@@ -143,7 +143,7 @@ h2 {
 }
 
 .contact {
-    width: 350px;
+    width: 100%;
     margin: 0 auto;
     min-height: 300px;
     background: rgba(255, 255, 255, .1);
@@ -270,6 +270,13 @@ input::placeholder {
     margin-bottom: 0;
     font-size: 13px;
     opacity: 0.6;
+}
+
+/* Skill */
+.img-icon > img {
+    /* filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.15)); */
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.28));
+    width: 150px;
 }
 
 @media (min-width: 992px) {

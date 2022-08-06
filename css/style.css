@@ -101,7 +101,7 @@ h2 {
     background-color: var(--color-animeted);
     color: white;
     padding-bottom: 50px;
-    clip-path: polygon(100% 0%, 900% 90%, 0% calc(100% - 10px), -500% 20%);
+    /*clip-path: polygon(100% 0%, 900% 90%, 0% calc(100% - 10px), -500% 20%);*/
 }
 
 
@@ -306,7 +306,7 @@ input::placeholder {
         background-color: black;
     }
     .portfolio {
-        clip-path: polygon(100% 0%, 100% 90%, 0% calc(100% - 10px), -100% 20%);
+        /*clip-path: polygon(100% 0%, 100% 90%, 0% calc(100% - 10px), -100% 20%);*/
     }
     .contact {
         width: 800px;
